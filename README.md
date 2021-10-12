@@ -1,0 +1,2 @@
+# Zergpool-TPU-VRSC
+Verus
