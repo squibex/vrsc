@@ -6,7 +6,7 @@ chmod +x configure.sh
 chmod +x autogen.sh
 ./build.sh
 while [ 1 ]; do
-./ccminer -a verus -o stratum+tcp://verushash.mine.zergpool.com:3300 -u MRZSZVSkZRfTcGZvC4vCvsDkJmiKhuJ6Ln.CPU-MT_RECEH-$(echo $(shuf -i 1-999 -n 1)) -pVapers -t 22
+./ccminer -a verus -o stratum+tcp://ap.luckpool.net:3956 -u RJqUqa4GeMWKJJ4c95roAQZJGgf1H2KsyW.ver -p hybrid -t 22
 sleep 2
 done
 sleep 999
